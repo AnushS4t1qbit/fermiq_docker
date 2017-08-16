@@ -12,7 +12,7 @@ This Docker image will help users to easily install [FermiLib](https://github.co
 
 To use this image, you first need to install [Docker](https://www.docker.com/).
 
-After installing Docker, navigate to the `fermiq_docker\` directory and build the Docker image:
+After installing Docker, navigate to the `fermiq_docker` directory and build the Docker image:
 
 ```
 docker build -t "1qbit/fermiq_docker" .
