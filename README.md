@@ -21,7 +21,7 @@ docker build -t "1qbit/fermiq_docker" .
 Finally, to run the image (assuming you're still inside your working directory), execute with `FermiQ` as the path to your working directory:
 
 ```
-docker run -it -v $(pwd):FermiQ -w FermiQ 1qbit/fermiq_docker
+docker run -it -v $(pwd):/FermiQ -w /FermiQ 1qbit/fermiq_docker
 ```
 
 When you're done using the Docker image, you can use `docker stop YOUR_CONTAINER_ID` or `docker kill YOUR_CONTAINER_ID` to stop your container (you can get your container ID by using the command `docker ps`).
