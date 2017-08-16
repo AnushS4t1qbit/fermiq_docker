@@ -9,6 +9,7 @@ RUN apt-get update
 RUN apt install -y g++
 
 RUN pip install git+https://github.com/ProjectQ-Framework/ProjectQ.git && \
-    pip install git+https://github.com/ProjectQ-Framework/FermiLib.git
+    pip install git+https://github.com/ProjectQ-Framework/FermiLib.git && \
+    pip install fermilibpluginpsi4
 
 
